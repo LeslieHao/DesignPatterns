@@ -6,5 +6,10 @@ package com.lesliehao.singleton;
  * Created by Hh on 2018/1/19
  */
 public enum EnumSingleton {
+    /**
+     * 枚举编译后代码和常量类类似，
+     * 但是继承了Enum 这个类，并置为final
+     */
+
     SINGLETON;
 }
