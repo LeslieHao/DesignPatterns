@@ -1,7 +1,7 @@
 package com.lesliehao.observer;
 
 /**
- * DESC: 被观察者
+ * DESC: 可被观察者
  * Created by Hh on 2018/1/22
  */
 public interface Observable {
