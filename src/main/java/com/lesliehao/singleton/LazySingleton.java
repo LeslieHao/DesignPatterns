@@ -19,12 +19,12 @@ public class LazySingleton {
      * 每次都进行同步
      * @return
      */
-//    public static synchronized LazySingleton getLazySingleton() {
-//        if (singleInstance == null) {
-//            singleInstance = new LazySingleton();
-//        }
-//        return singleInstance;
-//    }
+    public static synchronized LazySingleton getLazySingleton1() {
+        if (singleInstance == null) {
+            singleInstance = new LazySingleton();
+        }
+        return singleInstance;
+    }
 
     /**
      * 双重检查
