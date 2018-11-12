@@ -11,13 +11,13 @@ public class NvWa {
     @Test
     public void creatHumanTest() {
         HumanFactory humanFactory = new HumanFactory();
-        humanFactory.creatHuman(YellowHuman.class)
+        humanFactory.createHuman(YellowHuman.class)
                 .getColor()
                 .talk();
-        humanFactory.creatHuman(BlackHuman.class)
+        humanFactory.createHuman(BlackHuman.class)
                 .getColor()
                 .talk();
-        humanFactory.creatHuman(WhiteHuman.class)
+        humanFactory.createHuman(WhiteHuman.class)
                 .getColor()
                 .talk();
     }
