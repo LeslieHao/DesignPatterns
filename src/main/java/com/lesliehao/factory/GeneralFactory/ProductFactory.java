@@ -1,7 +1,7 @@
 package com.lesliehao.factory.GeneralFactory;
 
 /**
- * DESC:
+ * DESC: 简单工程模式
  * Created by Hh on 2018/1/19
  */
 public class ProductFactory extends AbsProductFactory {

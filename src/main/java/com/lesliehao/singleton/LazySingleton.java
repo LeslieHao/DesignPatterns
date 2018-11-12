@@ -5,6 +5,7 @@ package com.lesliehao.singleton;
  * Created by Hh on 2018/1/19
  */
 public class LazySingleton {
+
     // volatile 防止指令重排 获取单例失败
     // 指令重排 是指在不改变语义的情况下，通过调整指令的执行顺序，让程序运行更快
     // 所以存在 在对象还未初始化之前，单例就被调用的情况 添加volatile 修饰 保证可见性
@@ -33,6 +34,11 @@ public class LazySingleton {
      */
     public static LazySingleton getLazySingleton() {
         if (singleInstance == null) {
+//            // 对象锁
+//            synchronized (singleInstance) {
+//
+//            }
+            // 类锁
             synchronized (LazySingleton.class) {
                 if (singleInstance == null) {
                     singleInstance = new LazySingleton();
