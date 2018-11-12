@@ -5,7 +5,8 @@ package com.lesliehao.factory.HumanFactory;
  * Created by Hh on 2018/1/19
  */
 public class HumanFactory extends AbstractHumanFactory{
-    public <T extends Human> T creatHuman(Class c) {
+
+    public <T extends Human> T createHuman(Class c) {
         Human human = null;
         try {
             human = (Human) c.getClass().forName(c.getName()).newInstance();
