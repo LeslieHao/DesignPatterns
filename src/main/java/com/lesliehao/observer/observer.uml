@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lesliehao.observer</OriginalElement>
+  <nodes>
+    <node x="223.0" y="580.0">com.lesliehao.observer.Client</node>
+    <node x="0.0" y="481.0">com.lesliehao.observer.IZhangSI</node>
+    <node x="0.0" y="0.0">com.lesliehao.observer.Observable</node>
+    <node x="0.0" y="580.0">com.lesliehao.observer.HanFeiZi</node>
+    <node x="190.0" y="481.0">com.lesliehao.observer.IWangSI</node>
+    <node x="190.0" y="377.0">com.lesliehao.observer.Observer</node>
+    <node x="380.0" y="481.0">com.lesliehao.observer.ILiSI</node>
+    <node x="0.0" y="148.0">com.lesliehao.observer.IHanFeiZi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lesliehao.observer.IZhangSI" target="com.lesliehao.observer.Observer">
+      <point x="0.0" y="-27.0" />
+      <point x="85.0" y="456.0" />
+      <point x="218.33333333333334" y="456.0" />
+      <point x="-56.66666666666666" y="27.0" />
+    </edge>
+    <edge source="com.lesliehao.observer.ILiSI" target="com.lesliehao.observer.Observer">
+      <point x="0.0" y="-27.0" />
+      <point x="465.0" y="456.0" />
+      <point x="331.66666666666663" y="456.0" />
+      <point x="56.66666666666663" y="27.0" />
+    </edge>
+    <edge source="com.lesliehao.observer.IWangSI" target="com.lesliehao.observer.Observer">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lesliehao.observer.IHanFeiZi" target="com.lesliehao.observer.Observable">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="275.0" y="328.0" />
+  <SelectedNodes>
+    <node>com.lesliehao.observer.Observable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
